@@ -1,0 +1,25 @@
+
+<html>
+<link rel="stylesheet" type="text/css" href="./css/login.css">
+</head>
+<body style="background: url('./img/login/bilkent.jpg') no-repeat center center fixed; -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;">
+        <div style="margin-top:20px" align="center"><img src="./img/login/bilkentLogo250x250.png" alt="" align="middle" width="200px" height="200px"/>   </div>
+<div class="wrapper" style="opacity:0.75; filter: alpha(opacity=75); margin-top:10px; border-radius:150px;">
+    <form id="signInForm" class="form-signin" method="POST" action="./login/loginControl.php">
+      <h2 class="form-signin-heading">Please login</h2>
+      <input id="idTextBox" type="number" class="form-control" name="userid" placeholder="ID" required="" autofocus="" onkeypress='return event.charCode==8 || event.charCode==9 ||
+																																		event.charCode==13 || event.charCode==46 ||
+																																		event.charCode==110 || event.charCode==190 ||
+																																		(event.charCode >= 48 && event.charCode <= 57)'/>
+      <input type="password" id="pwTextBox"class="form-control" name="password" placeholder="Password" required=""/>
+      <label class="checkbox">
+        <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember me
+      </label>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+    </form>
+  </div>
+</body>
+</html>
