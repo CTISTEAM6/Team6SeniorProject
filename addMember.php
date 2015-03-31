@@ -59,7 +59,7 @@ $c      = "
                         <label>Name</label>
                     </td>
                     <td>
-                        <input placeholder='Name' name='stuName' id='stuName' pattern='.{6,}' title='Six or more characters' class='form-control' type='text' />
+                        <input placeholder='Name' name='stuName' id='stuName' class='form-control' type='text' />
                     </td>
                 </tr>
                 <tr>
