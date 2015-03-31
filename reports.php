@@ -68,7 +68,23 @@ $c="
 			<a href='activitiesByMonth.php'>
 				<h5>Activities by Month</h5>
 				<div>See the number of activities by months</div>
-			</a>				
+			</a>
+						<a href='activitiesByMonth.php'>
+				<h5>Activities by Month</h5>
+				<div>See the number of activities by months</div>
+			</a>
+						<a href='activitiesByMonth.php'>
+				<h5>Activities by Month</h5>
+				<div>See the number of activities by months</div>
+			</a>
+						<a href='activitiesByMonth.php'>
+				<h5>Activities by Month</h5>
+				<div>See the number of activities by months</div>
+			</a>
+						<a href='activitiesByMonth.php'>
+				<h5>Activities by Month</h5>
+				<div>See the number of activities by months</div>
+			</a>
 
 
 		</section>
