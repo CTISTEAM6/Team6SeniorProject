@@ -64,14 +64,6 @@ $c      = "
                 </tr>
                 <tr>
                     <td>
-                        <label>Middle Name</label>
-                    </td>
-                    <td>
-                        <input placeholder='Middle Name' name='middleName' id='middleName' class='form-control' type='text' />
-                    </td>
-                </tr>
-                <tr>
-                    <td>
                         <label>Surname</label>
                     </td>
                     <td>
